@@ -4,18 +4,43 @@
     <title>Inscription</title>
 </head>
 <body>
+    <h3>Inscription</h3>
     <form>
         <label>Nom:</label>
-        <input type="text" required>
+        <input placeholder="veuiller saisir le nom" type="text" required minlength="20" maxlength="50" readonly><!-- disabled:m3ach najem nekteb 3ibara taswira // readonly:najem n7ot text par defaut (value="") ama juste najem na9rah w nselectionnih-->
+        <br>
         <label>Prenom:</label>
-        <input type="text" required>
+        <input type="text" required> <!-- required: lezem tekteb fih champ -->
+        <br>
         <label>Date de naissance:</label>
         <input type="date" required>
-        <label>age:</label>
+        <br>
+        <label>Age:</label>
         <input type="number" required>
+        <br>
         <label>Email:</label>
         <input type="email" required>
-        <input type="submit" value="ok">
+        <br>
+        <label>Adress:</label>
+        <textarea></textarea>
+        <br>
+        <label>Pays:</label>
+        <select>
+            <option>Tunisie</option>
+            <option selected>France</option> <!-- selected: n7otou france tatla3 loula -->
+            <option>Canada</option>
+        </select>
+        <br>
+        <label>Loisirs:</label>
+        <input type="checkbox" checked> Sport <!-- checked: l'homme est selectionne par defaut w najem naamalha lzouz //checkbox:na3mlou biha checkbox -->
+        <input type="checkbox"> Musique
+        <br>
+        <label>Genre:</label>
+        <input type="radio" checked> Homme <!-- checked: homme est selectionne par defaut w manajemch naamalha lzouz -->
+        <input type="radio"> Femme <!-- radio:naaml biha bouton radio-->
+        <br>
+        <input type="submit" value="submit">
+        <input type="submit" value="reset">
     </form>
     
 </body>
