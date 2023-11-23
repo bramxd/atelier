@@ -1,0 +1,25 @@
+   /*h1{
+                color: red;
+
+            }*/
+            .test1{ /* selecteur par classe : narj3ou lel code html nzidou fih fi west l balise w na3tiwh esem*/
+                color: red;
+
+            }
+            #test2{/* selecteur par id(avec l'arribut id j'ai pas le droit utiliser #test2 avec un autre fonction : l'id est unique*/
+                color:blue;
+                font-size: 15px;
+            }
+            body{/*l'arriere plan*/
+                background-color: blueviolet;
+
+            }
+            .essentiel{
+                font-weight: bold;/*pour mise en form (gras)*/
+                color: #000080;
+                font-family: "Times new Roman";/*pour police*/
+            }
+            a:active{/* active: wa9teli nenzlou 3al lien ywali couleur mte3ou asfer // methode par balise (a)*/
+                color: yellow;
+            }
+            

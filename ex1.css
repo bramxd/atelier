@@ -1,0 +1,20 @@
+body{/* selecteur par balise*//* selecteur par pseudoclasse,classe,balise,id*/
+    font-family: Verdana;   /*police*/
+}
+header,footer,article,section{
+    background-color: white;
+    border-color: gray;
+    border-width: 1px ;
+    border-style: solid;
+    /* border: gray 1px solid*//* autre methode*/
+    padding: 5px ;
+    margin: 8px ;
+}
+/*manajmouch nestaamlou selecteur par balise 5ater deja sta3malnehom footer wl header biha*/
+.test1{
+    background-color: #444;
+    color: white;
+}
+#sec{
+    background-color: #ddd;
+}

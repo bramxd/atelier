@@ -1,0 +1,14 @@
+h1{
+    color:white;
+    background-color:gray;
+    padding: 5px;/*les marges interieur*/
+}
+h2{
+    color:red;
+    border: 3px solid red;
+    margin-left: 2px ; /*les marges exterieur*/
+    width: 300px;
+}
+p{
+    margin-left: 4em ;
+}
