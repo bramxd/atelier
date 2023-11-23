@@ -2,3 +2,7 @@ body{
     font-family: Trebuchet ;
     margin: 0px ;
 }
+header{
+    background-color: red;
+    font-family: white;
+}
